@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+.interface{
+    margin:40px 4% ;
+    box-shadow:0px 0px 20px 10px rgba(255, 255, 255, 0.171); 
+    border-radius: 20px;
+    position: relative;
+    
+}
+.seta{
+    position: absolute;
+    top:3%;
+    left:2%;
+    color:white;
+    font-size:40px;
+}
+
+.seta a{
+    color:white;
+    text-decoration:none;
+}
+
+body{
+    background-color:#0D0D0D;
+    font-family: "Poppins", serif;
+   
+}
+
+.portifolio{
+    padding:80px 4%;
+}
+
+.flex{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:0px 4% 0px 0px;
+
+}
+
+.img-port{
+    width: 360px;
+    height:460px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    background-color:white;
+    background-size:cover;
+    border-radius:20px;
+    background-position: 100% 0%;
+    transition:8s;
+    position:relative;
+
+}
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+ .conf{
+    width: 650px;
+    height:460px;
+    background-position:right;
+    background-repeat: no-repeat;
+}
+
+.conf:nth-child(2){
+    width: 793px;;
+}
+
+h2{
+    text-align: center;
+    font-size:2.5em;
+    padding:50px;
+    color:#3663BF;
+}
+
+.overley{
+   position: absolute; 
+   top:0;
+   left:0;
+   width: 100%;
+   height: 100%;
+   background-color: #0d0d0da2;
+   color:white;
+   border-radius:20px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   font-size:24px;
+   font-weight:600;
+   opacity:0;
+   transition:.5s;
+}
+.overley:hover{
+    opacity:1;
+    cursor:pointer;
+}
+
+.rodape{
+    min-width:100%;
+    min-height:10%;
+    background-color:#242424;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    padding:10px;
+    margin-top: 30px;;
+    gap:20px;
+    transition:.5s;
+}
+.rodape i{
+    display:inline-block;
+}
+
+.rodape a{
+    color:#ffffff9c;
+}
+.rodape i:hover{
+    color:#fff;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.212);
+    transform:scale(1.2);
+}
+

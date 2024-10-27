@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>challenge front end portfolio</title>
+    <script src="app-js/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <img src="imagens/logo.png" alt="logo">
+            </div> <!--logo-->
+
+            <!-- menu descktop -->
+            <nav class="descktop">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tecnologia">Tecnologias</a></li>
+                    <li><a href="#meus-hobbies">Meus Hobbies</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+            <div class="btn__contato">
+                <button><a href="#fale-comigo">Fale comigo</a></button>
+            </div>
+
+            <!-- menu mobile -->
+            <div class="abrir-menu" id="abrir-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="fechar-menu" >
+                    <i class="bi bi-x"></i>
+                    
+                </div>
+                <nav class="mobile">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#tecnologia">Tecnologias</a></li>
+                        <li><a href="#meus-hobbies">Meus Hobbies</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#fale-comigo">Fale comigo</a></li>
+                    </ul>
+                </nav>
+            </section>
+          
+        </div>
+    </header> <!-- interface -->
+    <main class="main">
+        <section class="conteiner" id="home">
+            <div class="interface">
+
+                <div class="conteudo-topo">
+                    <div class="texto">
+                        <h1>Transformando paixão por tecnologia em código e soluções inovadoras.</h1>
+                        <p>Sou Maria Elane, desenvolvedora front-end em formação, com conhecimentos em HTML, CSS e
+                            JavaScript. Apaixonada por tecnologia, estou sempre buscando evoluir e aprender mais, com o
+                            objetivo de dominar frameworks front-end em breve.</p>
+                        <div class="bnt-pjts"><a href="meus-projetos.html" target="_self" rel="next">Alguns projetos</a>
+                        </div>
+                    </div>
+                    <div class="imagem"><img src="imagens/foto .png" alt="">
+
+
+                    </div>
+        </section>
+
+        <section class="linguagens" id="tecnologia">
+            <div class="interface">
+                <h2>LINGUAGENS QUE EU ESTOU ESTUDANDO</h2>
+                <div class="conf">
+                    <div class="linguagens-box html">
+                        <i class="bi bi-filetype-html"></i>
+                    </div>
+                    <div class="linguagens-box css">
+                        <i class="bi bi-filetype-css"></i>
+                    </div>
+                    <div class="linguagens-box js">
+                        <i class="bi bi-filetype-js"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hobbies" id="meus-hobbies">
+            <div class="interface">
+                <h2 class="titulo-hobbies">MEUS HOBBIES</h2>
+                <div class="conf">
+                    <div class="hobbies-box karaoke">
+                        <i class="bi bi-mic"></i>
+                        <h2 class="hobbies-texto">Karaoke</h2>
+                    </div>
+                    <div class="hobbies-box composicao">
+                        <i class="bi bi-pencil-square"></i>
+                        <h2 class="hobbies-texto">Composição</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre-mim" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="sobre-mim-conteudo">
+                        <div class="imagem"><img src="imagens/devl.jpg" alt="Foto da desenvolvedora"></div>
+                    </div>
+                    <div class="texto">
+                        <h3>SOBRE MIM</h3>
+                        <p>
+                            Olá! Sou Maria Elane, apaixonada por tecnologia e atualmente focada em desenvolver minhas
+                            habilidades como desenvolvedora front-end. Tenho conhecimento em HTML, CSS e JavaScript, e
+                            estou sempre em busca de novos desafios e oportunidades para expandir meus conhecimentos.
+                            Meu próximo passo será explorar frameworks front-end, como React, Angular ou Vue.js, para
+                            melhorar ainda mais minhas habilidades de desenvolvimento.
+
+                        </p>
+                        <p>Desde que me lembro, sempre sonhei em trabalhar com tecnologia, e estou dedicando meu tempo e
+                            energia para transformar esse sonho em realidade. Cada projeto é uma nova oportunidade para
+                            aprender e crescer, e estou animada para ver onde essa jornada me levará!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario" id="fale-comigo">
+            <div class="interface">
+                <h2>FALE COMIGO</h2>
+                <form action="">
+                    <input type="text" class="item" id="nome" placeholder="Seu nome completo:" required>
+                    <input type="text" class="item" id="email" placeholder="Seu e-mail:" required>
+                    <input type="text" class="item" id="telefone" placeholder="Seu celular:">
+                    <textarea class="item" id="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <footer class="rodape">
+
+        <div class="minhas-redes">
+            <a href="https://github.com/maria-elane7?tab=repositories" target="_blank" rel="external"><i
+                    class="bi bi-github"></i></a>
+        </div>
+        <div class="minhas-redes">
+            <a href="https://www.linkedin.com/in/maria-elane/" target="_blank" rel="external"><i
+                    class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="minhas-redes">
+            <a href="https://www.instagram.com/mariaelane77/" target="_blank" rel="external"><i
+                    class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
