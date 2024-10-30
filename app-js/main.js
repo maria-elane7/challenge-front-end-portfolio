@@ -3,6 +3,8 @@ const nome = document.getElementById("nome");
 const email = document.getElementById("email");
 const telefone = document.getElementById("telefone");
 const mensagem = document.getElementById("mensagem");
+let menuMobile = document.getElementById('menu-mobile');
+let btnMenu = document.getElementById('abrir-menu');
 
 function sendEmail(){
 
@@ -35,11 +37,6 @@ form.addEventListener("submit", (e) => {
 
     sendEmail();
 })
-
-//menu mobile
-let menuMobile = document.getElementById('menu-mobile');
-let btnMenu = document.getElementById('abrir-menu');
-
 
 btnMenu.addEventListener('click', () =>{
     menuMobile.classList.add('abrir-btn-menu');
